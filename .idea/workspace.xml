@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="033199ac-a35c-4dd5-9a4b-015fd915e6e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreadingstudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/createthread/CaseStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/createthread/CreateThreadExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/createthread/CreateThreadExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/createthread/CreateThreadExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coordinatethread/CoordinateThreadExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coordinatethread/CoordinateThreadExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coordinatethread/CoordinateThreadExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coordinatethread/CoordinateThreadExample4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2lE9u710fpSoeGkJwzLN0hCJd9p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,6 +41,13 @@
     "Application.CaseStudy (2).executor": "Run",
     "Application.CaseStudy (3).executor": "Run",
     "Application.CaseStudy.executor": "Run",
+    "Application.CoordinateThreadExample1 (1).executor": "Run",
+    "Application.CoordinateThreadExample1.executor": "Run",
+    "Application.CoordinateThreadExample2 (1).executor": "Run",
+    "Application.CoordinateThreadExample2 (2).executor": "Run",
+    "Application.CoordinateThreadExample2.executor": "Run",
+    "Application.CoordinateThreadExample3.executor": "Run",
+    "Application.CoordinateThreadExample4.executor": "Run",
     "Application.CreateThreadExample2.executor": "Run",
     "Application.CreateThreadExample3 (1).executor": "Run",
     "Application.CreateThreadExample3 (2).executor": "Run",
@@ -60,13 +60,18 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CaseStudy (3)">
-    <configuration name="CaseStudy (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="createthread.CaseStudy" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="coordinatethread" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CoordinateThreadExample4">
+    <configuration name="CoordinateThreadExample1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample1" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="createthread.*" />
+          <option name="PATTERN" value="coordinatethread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaseStudy (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="createthread.CaseStudy" />
+    <configuration name="CoordinateThreadExample2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample2" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="createthread.*" />
+          <option name="PATTERN" value="coordinatethread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaseStudy (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="createthread.CaseStudy" />
+    <configuration name="CoordinateThreadExample2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample2" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="createthread.*" />
+          <option name="PATTERN" value="coordinatethread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaseStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="createthread.CaseStudy" />
+    <configuration name="CoordinateThreadExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample3" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="createthread.*" />
+          <option name="PATTERN" value="coordinatethread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateThreadExample3 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="createthread.CreateThreadExample3" />
+    <configuration name="CoordinateThreadExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample4" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="createthread.*" />
+          <option name="PATTERN" value="coordinatethread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CaseStudy (3)" />
-        <item itemvalue="Application.CaseStudy (2)" />
-        <item itemvalue="Application.CaseStudy (1)" />
-        <item itemvalue="Application.CaseStudy" />
-        <item itemvalue="Application.CreateThreadExample3 (3)" />
+        <item itemvalue="Application.CoordinateThreadExample4" />
+        <item itemvalue="Application.CoordinateThreadExample3" />
+        <item itemvalue="Application.CoordinateThreadExample1 (1)" />
+        <item itemvalue="Application.CoordinateThreadExample2 (2)" />
+        <item itemvalue="Application.CoordinateThreadExample2 (1)" />
       </list>
     </recent_temporary>
   </component>
