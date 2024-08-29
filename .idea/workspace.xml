@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="033199ac-a35c-4dd5-9a4b-015fd915e6e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/coordinatethread/CoordinateThreadExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coordinatethread/CoordinateThreadExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coordinatethread/CoordinateThreadExample3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coordinatethread/CoordinateThreadExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/racecondition/AtomicOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/racecondition/ResourceSharingExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,43 +33,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CaseStudy (1).executor": "Run",
-    "Application.CaseStudy (2).executor": "Run",
-    "Application.CaseStudy (3).executor": "Run",
-    "Application.CaseStudy.executor": "Run",
-    "Application.CoordinateThreadExample1 (1).executor": "Run",
-    "Application.CoordinateThreadExample1.executor": "Run",
-    "Application.CoordinateThreadExample2 (1).executor": "Run",
-    "Application.CoordinateThreadExample2 (2).executor": "Run",
-    "Application.CoordinateThreadExample2.executor": "Run",
-    "Application.CoordinateThreadExample3.executor": "Run",
-    "Application.CoordinateThreadExample4.executor": "Run",
-    "Application.CreateThreadExample2.executor": "Run",
-    "Application.CreateThreadExample3 (1).executor": "Run",
-    "Application.CreateThreadExample3 (2).executor": "Run",
-    "Application.CreateThreadExample3 (3).executor": "Run",
-    "Application.CreateThreadExample3.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CaseStudy (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaseStudy (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaseStudy (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaseStudy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CreateThreadExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateThreadExample3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateThreadExample3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateThreadExample3 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateThreadExample3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ResourceSharingExample (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="coordinatethread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoordinateThreadExample4">
-    <configuration name="CoordinateThreadExample1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample1" />
+  <component name="RunManager" selected="Application.ResourceSharingExample (1)">
+    <configuration name="ResourceSharingExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="racecondition.ResourceSharingExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coordinatethread.*" />
+          <option name="PATTERN" value="racecondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoordinateThreadExample2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample2" />
+    <configuration name="ResourceSharingExample (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="racecondition.ResourceSharingExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coordinatethread.*" />
+          <option name="PATTERN" value="racecondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoordinateThreadExample2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample2" />
+    <configuration name="ResourceSharingExample (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="racecondition.ResourceSharingExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coordinatethread.*" />
+          <option name="PATTERN" value="racecondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoordinateThreadExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample3" />
+    <configuration name="ResourceSharingExample (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="racecondition.ResourceSharingExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coordinatethread.*" />
+          <option name="PATTERN" value="racecondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoordinateThreadExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coordinatethread.CoordinateThreadExample4" />
+    <configuration name="ResourceSharingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="racecondition.ResourceSharingExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coordinatethread.*" />
+          <option name="PATTERN" value="racecondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CoordinateThreadExample4" />
-        <item itemvalue="Application.CoordinateThreadExample3" />
-        <item itemvalue="Application.CoordinateThreadExample1 (1)" />
-        <item itemvalue="Application.CoordinateThreadExample2 (2)" />
-        <item itemvalue="Application.CoordinateThreadExample2 (1)" />
+        <item itemvalue="Application.ResourceSharingExample (1)" />
+        <item itemvalue="Application.ResourceSharingExample" />
+        <item itemvalue="Application.ResourceSharingExample (5)" />
+        <item itemvalue="Application.ResourceSharingExample (4)" />
+        <item itemvalue="Application.ResourceSharingExample (3)" />
       </list>
     </recent_temporary>
   </component>
