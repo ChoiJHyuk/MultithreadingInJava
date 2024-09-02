@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="033199ac-a35c-4dd5-9a4b-015fd915e6e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/locking/Deadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locking/ReentrantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locking/ReentrantReadWriteLocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threadcommunication/ConditionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threadcommunication/SemaphoreExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threadcommunication/WaitNotifyExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,68 +34,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CaseStudy (1).executor": "Run",
-    "Application.CaseStudy (2).executor": "Run",
-    "Application.CaseStudy (3).executor": "Run",
-    "Application.CaseStudy.executor": "Run",
-    "Application.CoordinateThreadExample1 (1).executor": "Run",
-    "Application.CoordinateThreadExample1.executor": "Run",
-    "Application.CoordinateThreadExample2 (1).executor": "Run",
-    "Application.CoordinateThreadExample2 (2).executor": "Run",
-    "Application.CoordinateThreadExample2.executor": "Run",
-    "Application.CoordinateThreadExample3.executor": "Run",
-    "Application.CoordinateThreadExample4.executor": "Debug",
-    "Application.CreateThreadExample2.executor": "Run",
-    "Application.CreateThreadExample3 (1).executor": "Run",
-    "Application.CreateThreadExample3 (2).executor": "Run",
-    "Application.CreateThreadExample3 (3).executor": "Run",
-    "Application.CreateThreadExample3.executor": "Run",
-    "Application.Deadlock (1).executor": "Run",
-    "Application.Deadlock.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.ReentrantLock (1).executor": "Run",
-    "Application.ReentrantLock (2).executor": "Run",
-    "Application.ReentrantLock.executor": "Run",
-    "Application.ReentrantReadWriteLock.executor": "Run",
-    "Application.ReentrantReadWriteLocks (1).executor": "Run",
-    "Application.ReentrantReadWriteLocks (2).executor": "Run",
-    "Application.ReentrantReadWriteLocks (3).executor": "Run",
-    "Application.ReentrantReadWriteLocks (4).executor": "Run",
-    "Application.ReentrantReadWriteLocks (5).executor": "Run",
-    "Application.ReentrantReadWriteLocks.executor": "Run",
-    "Application.ResourceSharingExample (1).executor": "Run",
-    "Application.ResourceSharingExample (2).executor": "Run",
-    "Application.ResourceSharingExample (3).executor": "Run",
-    "Application.ResourceSharingExample (4).executor": "Run",
-    "Application.ResourceSharingExample (5).executor": "Run",
-    "Application.ResourceSharingExample.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/choi/alone/multithreadingstudy/src/locking"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CaseStudy (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaseStudy (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaseStudy (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaseStudy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateThreadExample4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CreateThreadExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateThreadExample3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateThreadExample3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateThreadExample3 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateThreadExample3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deadlock (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deadlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReentrantLock (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantLock (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantLock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantReadWriteLock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantReadWriteLocks (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantReadWriteLocks (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantReadWriteLocks (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantReadWriteLocks (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantReadWriteLocks (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantReadWriteLocks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceSharingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SemaphoreExample (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SemaphoreExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyExample (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyExample (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyExample (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/choi/alone/multithreadingstudy/src/threadcommunication/waitnotify&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="locking" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/threadcommunication/waitnotify" />
       <recent name="$PROJECT_DIR$/src/locking" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="coordinatethread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentrantReadWriteLocks (1)">
-    <configuration name="ReentrantLock (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locking.ReentrantLock" />
+  <component name="RunManager" selected="Application.SemaphoreExample">
+    <configuration name="SemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcommunication.SemaphoreExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="locking.*" />
+          <option name="PATTERN" value="threadcommunication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantReadWriteLocks (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locking.ReentrantReadWriteLocks" />
+    <configuration name="WaitNotifyExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcommunication.waitnotify.WaitNotifyExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="locking.*" />
+          <option name="PATTERN" value="threadcommunication.waitnotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantReadWriteLocks (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locking.ReentrantReadWriteLocks" />
+    <configuration name="WaitNotifyExample (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcommunication.waitnotify.WaitNotifyExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="locking.*" />
+          <option name="PATTERN" value="threadcommunication.waitnotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantReadWriteLocks (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locking.ReentrantReadWriteLocks" />
+    <configuration name="WaitNotifyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcommunication.WaitNotifyExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="locking.*" />
+          <option name="PATTERN" value="threadcommunication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantReadWriteLocks (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locking.ReentrantReadWriteLocks" />
+    <configuration name="WaitNotifyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcommunication.WaitNotifyExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="locking.*" />
+          <option name="PATTERN" value="threadcommunication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +162,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantReadWriteLocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locking.ReentrantReadWriteLocks" />
+    <configuration name="WaitNotifyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcommunication.WaitNotifyExample" />
       <module name="multithreadingstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="locking.*" />
+          <option name="PATTERN" value="threadcommunication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitNotifyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcommunication.WaitNotifyExample" />
+      <module name="multithreadingstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadcommunication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +190,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReentrantReadWriteLocks (1)" />
-        <item itemvalue="Application.ReentrantReadWriteLocks" />
-        <item itemvalue="Application.ReentrantReadWriteLocks (5)" />
-        <item itemvalue="Application.ReentrantReadWriteLocks (4)" />
-        <item itemvalue="Application.ReentrantReadWriteLocks (3)" />
+        <item itemvalue="Application.WaitNotifyExample" />
+        <item itemvalue="Application.WaitNotifyExample (2)" />
+        <item itemvalue="Application.WaitNotifyExample (1)" />
       </list>
     </recent_temporary>
   </component>
